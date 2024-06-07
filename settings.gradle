@@ -1,0 +1,2 @@
+rootProject.name='Smart Voting System Admin App'
+include ':app'

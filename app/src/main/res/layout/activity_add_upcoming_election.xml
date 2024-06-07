@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Admin.UpcomingElection.AddUpcomingElectionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_add_upcoming_election_election_type_title"
+            android:text="Election Type "
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/edt_add_upcoming_election_election_type"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/edittextbackground"
+            />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_election_state_title"
+                android:text="Election State "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_election_state"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_total_seat_title"
+                android:text="Total Seat Title "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_total_seat"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_total_seat_notitle"
+                android:text="Total Seat No "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_total_seat_no"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_date_of_polling_title"
+                android:text="Date of Polling Title"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_date_of_polling"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_phase1_title_title"
+                android:text="Phase 1 Title"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_phase1_title"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_phase1_date_title"
+                android:text="Phase 1 Date"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_phase1_date"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_phase2_title_title"
+                android:text="Phase 2 Title"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_phase2_title"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_phase2_date_title"
+                android:text="Phase 2 Date"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_phase2_date"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_phase3_title_title"
+                android:text="Phase 3 Title"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_phase3_title"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_phase3_date_title"
+                android:text="Phase 3 Date"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_phase3_date"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_phase4_title_title"
+                android:text="Phase 4 Title"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_phase4_title"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_phase4_date_title"
+                android:text="Phase 4 Date"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_phase4_date"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_counting_date_title_heading"
+                android:text="Counting Date Title"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_counting_date_title_heading1"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_upcoming_election_counting_date_title"
+                android:text="Counting Date"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_upcoming_election_counting_date"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_add_upcoming_election"
+                android:text="Add Upcoming Election"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/colorPrimary"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</ScrollView>

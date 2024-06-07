@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Admin.CurrentElection.Add_Current_Election_By_Candidate_ConstituencyScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_current_election_candidate_name_title"
+                android:text="Name "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_current_election_candidate_name"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_current_election_candidate_profile_title"
+                android:text="Profile Image "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_add_current_election_candidate_image"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="Select Image"
+                    android:textAlignment="center"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textSize="14dp" />
+
+                <ImageView
+                    android:id="@+id/img_add_current_election_candidate_image"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="20dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_current_election_candidate_father_husband_name_title"
+                android:text="Father/Husband Name "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_current_election_candidate_father_husband_name"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_current_election_candidate_party_title"
+                android:text="Party"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_current_election_candidate_party"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_current_election_candidate_age_title"
+                android:text="Age"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_current_election_candidate_age"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="number"
+                android:maxLength="3"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_current_election_candidate_gender_title"
+                android:text="Gender"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_current_election_candidate_gender"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_current_election_candidate_address_title"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_current_election_candidate_address"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPostalAddress"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_current_election_candidate_applied_state_title"
+                android:text="Applied State"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_current_election_candidate_applied_state"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPostalAddress"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_current_election_candidate_applied_constituncy_title"
+                android:text="Applied Constitueny"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/tv_current_election_candidate_applied_Constitueny"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="scxc"
+                android:fontFamily="sans-serif-black"
+                android:inputType="text"
+                android:background="@drawable/edittextbackground"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_current_election_candidate_applied_constituncy_pincode_title"
+                android:text="Applied Constitueny Pincode"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_current_election_candidate_applied_constituncy_pincode"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="number"
+                android:background="@drawable/edittextbackground"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:maxLength="6"
+                android:layout_marginBottom="20dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_add_current_election_candidate"
+                android:text="Add Candidate"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</ScrollView>

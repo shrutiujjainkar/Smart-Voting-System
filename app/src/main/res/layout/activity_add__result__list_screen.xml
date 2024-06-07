@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Admin.Result.Add_Result_ListScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_result_list_election_type_name_title"
+                android:text="Election Type Name "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_result_list_election_type_name"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_result_list_election_constituency_place_title"
+                android:text="Election Constituency"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_result_list_election_constituency_place"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_result_list_election_constituency_total_seats_title"
+                android:text="Constituency Total Seats"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_result_list_election_constituency_total_seats"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                android:maxLength="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_add_result_list_election_constituency_total_seats_majority_title"
+                android:text="Constituency Total Seats Majority"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edt_add_result_list_election_constituency_total_seats_majority"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/edittextbackground"
+                android:maxLength="3"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_add_result_list_by_constituency_place"
+                android:text="Add Result of Constituency By Place"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress"
+            android:indeterminateTint="@color/colorPrimary"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Smart Voting System Admin App</string>
+    <string name="election_commision_of_india">Election Commission Of India</string>
+    <string name="identity_card">IDENTITY CARD</string>
+    <string name="epic_no_title">EPIC Number :</string>
+    <string name="full_name_title">Full Name :</string>
+    <string name="mobile_no_title">Mobile Number :</string>
+    <string name="address_title">Address :</string>
+    <string name="your_voting_address_title">Your Voting Address :</string>
+    <string name="gender_title">Gender :</string>
+    <string name="voting_done">Voting Done</string>
+</resources>

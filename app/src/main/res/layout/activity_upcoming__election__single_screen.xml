@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/sky_blue"
+    tools:context=".Activities.Admin.UpcomingElection.Upcoming_Election_SingleScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/l1"
+        android:orientation="vertical"
+        android:background="@drawable/bg_white_stroke_purple_solid"
+        android:layout_margin="25dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_election_type_name"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_election_state"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_election_total_seat_title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_election_total_seat_no"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_election_polling_date_title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/l2"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_election_polling_phase1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_election_polling_date1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"/>
+
+            </LinearLayout>
+
+            <!--            <View-->
+            <!--                android:layout_width="1dp"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:id="@+id/view1"-->
+            <!--                android:background="@color/white"-->
+            <!--                android:layout_marginLeft="30dp"-->
+            <!--                android:layout_marginRight="30dp"-->
+            <!--                android:visibility="gone"/>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="40dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_election_polling_phase2"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_election_polling_date2"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/l3"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_election_polling_phase3"
+                    android:text="dfdsdddffdg"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_election_polling_date3"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"/>
+
+            </LinearLayout>
+
+            <!--            <View-->
+            <!--                android:id="@+id/view2"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="30dp"-->
+            <!--                android:layout_marginRight="30dp"-->
+            <!--                android:background="@color/white"-->
+            <!--                android:visibility="gone"-->
+            <!--                />-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="40dp">
+
+                <TextView
+                    android:id="@+id/txt_election_polling_phase4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_election_polling_date4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_election_polling_counting_date_title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_election_polling_counting_date"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/img_voter_box"
+                android:src="@drawable/vote_box_256"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
